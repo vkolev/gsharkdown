@@ -1,0 +1,800 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gsharkdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-13 16:21-0300\n"
+"PO-Revision-Date: 2012-02-21 10:09+0100\n"
+"Last-Translator: Vladimir Kolev <vladimir.r.kolev@gmail.com>\n"
+"Language-Team: Bulgarian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../lib/SharkDown.py:182
+msgid "Please check your username and password for Last.fm"
+msgstr "Моля проверете вашите потребителско име и парола за Last.fm"
+
+#: ../lib/SharkDown.py:205
+#, python-format
+msgid ""
+"GrooveShark service has probably changed or is not working!\n"
+"gSharkDown will not works propperly, so please be patient until we find a solution.\n"
+"Also, this may usually caused by a proxy misconfiguration\n"
+"please check your proxy configuration.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+"GrooveShark услугата е вероятно променена или не работи!\n"
+"gSharkDown няма да работи коректно, за това бъдете търпеливи, докато открием решение.\n"
+"Това може да бъде причинено и от неправилно конфигурирано прокси.\n"
+"Моля проверете настройките на вашето прокси.\n"
+"\n"
+"Грешката беше: %s"
+
+#: ../lib/SharkDown.py:284
+msgid "Error while saving the playlist"
+msgstr "Грешка при записването на списъка с песни"
+
+#: ../lib/SharkDown.py:317
+msgid "Error while saving the download queue"
+msgstr "Грешка при записването на списъкза за изтегляне"
+
+#: ../lib/SharkDown.py:325
+#: ../data/main_window.ui.h:21
+msgid "Save playlist to file"
+msgstr "Запиши списъка с песни във файл"
+
+#: ../lib/SharkDown.py:343
+msgid "Select Playlist to open"
+msgstr "Изберете списък с песни"
+
+#: ../lib/SharkDown.py:349
+msgid "Playlist files"
+msgstr "Списъци с песни"
+
+#: ../lib/SharkDown.py:383
+msgid "Are you sure you want to quit gSharkDown?"
+msgstr "Сигурни ли сте, че искате да изключите gSharkDown?"
+
+#: ../lib/SharkDown.py:384
+msgid "Quit?"
+msgstr "Изход?"
+
+#: ../lib/SharkDown.py:573
+msgid "<b>Playing:</b> <i>{title}</i> <span fgcolor='#777777'>by {artist}</span>"
+msgstr "<b>Изпълнява се:</b> <i>{title}</i> <span fgcolor='#777777'>от {artist}</span>"
+
+#: ../lib/SharkDown.py:609
+msgid "Now playing"
+msgstr "В момента свири"
+
+#: ../lib/SharkDown.py:706
+#, python-format
+msgid "%d track"
+msgid_plural "%d tracks"
+msgstr[0] "%d песен"
+msgstr[1] "%d песни"
+
+#: ../lib/SharkDown.py:708
+msgid "Track {0} of {1}"
+msgstr "Песен {0} от {1}"
+
+#: ../lib/SharkDown.py:738
+msgid ""
+"There should be a playing song to view\n"
+"the lyrics for it."
+msgstr ""
+"Трябва да има свиреща песен, за да видите\n"
+"тескта за нея."
+
+#: ../lib/SharkDown.py:849
+#, python-format
+msgid "Downloading %d file"
+msgid_plural "Downloading %d files"
+msgstr[0] "Изтегляне %d файл"
+msgstr[1] "Изтегляне %d файла"
+
+#: ../lib/SharkDown.py:952
+msgid ""
+"There is no song to be loved.\n"
+" A song should be playing"
+msgstr ""
+"Няма песен, която да бъде харесана.\n"
+" Песента трябва да свири"
+
+#: ../lib/SearchResultList.py:48
+msgid "Title"
+msgstr "Заглавие"
+
+#: ../lib/SearchResultList.py:54
+msgid "Artist"
+msgstr "Изпълнител"
+
+#: ../lib/SearchResultList.py:59
+msgid "Album"
+msgstr "Албум"
+
+#: ../lib/guihelpers.py:33
+msgid "Error"
+msgstr "Грешка"
+
+#: ../lib/guihelpers.py:152
+msgid "Song Information - {songid}"
+msgstr "Информация за песента - {songid}"
+
+#: ../lib/guihelpers.py:153
+msgid "<b>Title:</b> {title}\n"
+msgstr "<b>Заглавие:</b> {title}\n"
+
+#: ../lib/guihelpers.py:154
+msgid "<b>Artist:</b> {artist}\n"
+msgstr "<b>Изпълнител:</b> {artist}\n"
+
+#: ../lib/guihelpers.py:156
+msgid "<b>Duration:</b> {duration} min\n"
+msgstr "<b>Времетраене:</b> {duration} мин\n"
+
+#: ../lib/guihelpers.py:157
+msgid "<b>Album:</b> {album}\n"
+msgstr "<b>Албум:</b> {album}\n"
+
+#: ../lib/guihelpers.py:158
+msgid "<b>Year:</b> {year}\n"
+msgstr "<b>Година:</b> {year}\n"
+
+#: ../lib/guihelpers.py:260
+msgid "There is no proxy configured in your system"
+msgstr "Няма конфигурирано прокси в системните настройки"
+
+#: ../lib/guihelpers.py:266
+#, python-format
+msgid "The system proxy is: %s"
+msgstr "Системното прокси е: %s"
+
+#: ../lib/guihelpers.py:322
+msgid "The Last.fm username must not be empty."
+msgstr "Потребителското име за Last.fm не трябва да е празно."
+
+#: ../lib/guihelpers.py:330
+msgid "The Last.fm password must not be empty."
+msgstr "Паролата за Last.fm не трябва да е празна."
+
+#: ../lib/guihelpers.py:347
+msgid "Please check your username and password for Last.fm or disable scrobbling"
+msgstr "Моля проверете вашите потребителско име и парола за Last.fm или изключете scrobbling"
+
+#: ../lib/guihelpers.py:399
+msgid "Show gSharkDown"
+msgstr "Покажи gSharkDown"
+
+#: ../lib/guihelpers.py:416
+msgid "Check for update"
+msgstr "Провери за нова версия"
+
+#: ../lib/guihelpers.py:447
+#: ../gsharkdown.desktop.in.h:2
+#: ../data/main_window.ui.h:34
+msgid "gSharkDown"
+msgstr "gSharkDown"
+
+#: ../lib/guihelpers.py:480
+msgid "Stop"
+msgstr "Спиране"
+
+#: ../lib/guihelpers.py:490
+msgid "Play"
+msgstr "Пускане"
+
+#: ../lib/groove.py:186
+msgid "Grooveshark is not initialized"
+msgstr "Grooveshark не е инициализиран"
+
+#: ../lib/PlayList.py:157
+msgid ""
+"<b>Title:</b> {title}\n"
+"<b>Artist:</b> {artist}\n"
+"<b>Album:</b> {album}\n"
+"<b>Year:</b> {year}"
+msgstr ""
+"<b>Заглавие:</b> {title}\n"
+"<b>Изпълнител:</b> {artist}\n"
+"<b>Албум:</b> {album}\n"
+"<b>Година:</b> {year}"
+
+#: ../lib/tfuncs.py:82
+#, python-format
+msgid ""
+"An error occurred while playing the song. Please try again later.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+"Възникна грешка при изпълнението на песента. Опитайте по-късно.\n"
+"\n"
+"Грешката беше: %s"
+
+#: ../lib/tfuncs.py:163
+msgid "No songs found"
+msgstr "Не са открити песни"
+
+#: ../lib/tfuncs.py:170
+#, python-format
+msgid ""
+"An error occurred while search on Grooveshark.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+"Възникна грешка при търсене в Grooveshark.\n"
+"\n"
+"Грешката беше: %s"
+
+#: ../lib/tfuncs.py:192
+msgid "To update to the latest version "
+msgstr "За да обновите до последната версия"
+
+#: ../lib/tfuncs.py:193
+msgid "you can visit the <a href=\"http://https://bitbucket.org/vkolev/gsharkdown/downloads\"> "
+msgstr "можете да посетите <a href=\"http://https://bitbucket.org/vkolev/gsharkdown/downloads\"> "
+
+#: ../lib/tfuncs.py:194
+msgid "download site</a>. If you are using the latest version and want to be "
+msgstr "сайта за изтегляне</a>. Ако използвате послдната версия и искате да сте"
+
+#: ../lib/tfuncs.py:195
+msgid "informed about new versions, just enable the option in the <b>Preferences</b> dialog."
+msgstr "информирани за нови версии, просто разрешете опцията в диалога <b>Настройки</b>."
+
+#: ../lib/tfuncs.py:198
+#, python-format
+msgid "<b>New version <span fgcolor=\"red\"><i>%s</i></span> is available</b>"
+msgstr "<b>Достъпна е нова версия<span fgcolor=\"red\"><i>%s</i></span></b>"
+
+#: ../lib/tfuncs.py:200
+msgid "New version"
+msgstr "Нова версия"
+
+#: ../lib/tfuncs.py:205
+msgid "<b>You are using the latest version!</b>"
+msgstr "<b>Вие използвате последната версия!</b>"
+
+#: ../lib/tfuncs.py:207
+msgid "Latest version"
+msgstr "Последна версия"
+
+#: ../lib/tfuncs.py:224
+msgid "Loading lyrics..."
+msgstr "Зареждане на текста..."
+
+#: ../lib/tfuncs.py:232
+#: ../data/main_window.ui.h:13
+msgid "Lyrics"
+msgstr "Текст"
+
+#: ../lib/Song.py:506
+#, python-format
+msgid "Failed to create '%s' for writing."
+msgstr "Неуспех при създаване на '%s' за записване."
+
+#: ../lib/DownloadList.py:69
+msgid "File name"
+msgstr "Файл"
+
+#: ../lib/DownloadList.py:73
+msgid "Speed"
+msgstr "Скорост"
+
+#: ../lib/DownloadList.py:77
+msgid "Size"
+msgstr "Размер"
+
+#: ../lib/DownloadList.py:81
+msgid "Download progress"
+msgstr "Прогрес на изтегляне"
+
+#: ../lib/PlayListStyleWidget.py:13
+msgid "Text below icons"
+msgstr "Текст под иконите"
+
+#: ../lib/PlayListStyleWidget.py:14
+msgid "Text beside icons"
+msgstr "Текст до иконите"
+
+#. (PlayList.ICONS_BIG, _("Icons only (big)"),),
+#. (PlayList.ICONS_SMALL, _("Icons only (small)"),),
+#: ../lib/PlayListStyleWidget.py:17
+msgid "Not show"
+msgstr "Не показвай"
+
+#: ../lib/PlayListStyleWidget.py:42
+msgid "Change the playlist style"
+msgstr "Промяна на стила на списъка за просвирване"
+
+#: ../lib/PlayListStyleWidget.py:45
+msgid ""
+"Please update your version of PyGtk\n"
+"to change the playlist style"
+msgstr ""
+"Моля обновете версията на PyGtk,\n"
+"за да промените вида на списъка за просвирване."
+
+#: ../gsharkdown.desktop.in.h:1
+msgid "Play and download songs from Grooveshark"
+msgstr "Слушай и изтегляй песни от Grooveshark"
+
+#: ../data/lyrics_dialog.ui.h:1
+msgid "<b>Lyrics for:</b>"
+msgstr "<b>Текст за:</b>"
+
+#: ../data/lyrics_dialog.ui.h:2
+msgid "Lyrics viewer"
+msgstr "Текст на песен"
+
+#: ../data/lyrics_dialog.ui.h:3
+msgid "label"
+msgstr "label"
+
+#: ../data/preferenes_dialog.ui.h:1
+msgid ""
+"<span size=\"small\">\n"
+"<b>You can use the following placeholders:</b>\n"
+"\t<b>{artist}</b> - The name of the artist\n"
+"\t<b>{song}</b> - The name of the song\n"
+"\t<b>{album}</b> - The album name\n"
+"</span>"
+msgstr ""
+"<span size=\"small\">\n"
+"<b>Можете да използвате следните заместители:</b>\n"
+"\t<b>{artist}</b> - Името на изпълнителя\n"
+"\t<b>{song}</b> - Заглавието на песента\n"
+"\t<b>{album}</b> - Името на албума\n"
+"</span>"
+
+#: ../data/preferenes_dialog.ui.h:7
+msgid "Check for updates on startup"
+msgstr "Провери за обновления при стартиране"
+
+#: ../data/preferenes_dialog.ui.h:8
+msgid "Do not use proxy"
+msgstr "Не използвай прокси"
+
+#: ../data/preferenes_dialog.ui.h:9
+msgid "Download Directory:"
+msgstr "Директория за изтегляне:"
+
+#: ../data/preferenes_dialog.ui.h:10
+msgid "Downloads"
+msgstr "Изтегляне"
+
+#: ../data/preferenes_dialog.ui.h:11
+msgid "Enable Last.fm Scrobbling"
+msgstr "Разреши Last.fm Scrobbling"
+
+#: ../data/preferenes_dialog.ui.h:12
+msgid "File renaming pattern:"
+msgstr "Шаблон за преименуване на файла:"
+
+#: ../data/preferenes_dialog.ui.h:13
+msgid "General"
+msgstr "Основни"
+
+#: ../data/preferenes_dialog.ui.h:14
+msgid "Last.fm"
+msgstr "Last.fm"
+
+#: ../data/preferenes_dialog.ui.h:15
+msgid "Maximum download speed: "
+msgstr "Максимална скорост за изтегляне:"
+
+#: ../data/preferenes_dialog.ui.h:16
+msgid "MegaBytes"
+msgstr "Мега байта"
+
+#: ../data/preferenes_dialog.ui.h:17
+msgid "Password:"
+msgstr "Парола:"
+
+#: ../data/preferenes_dialog.ui.h:18
+msgid "Port:"
+msgstr "Порт:"
+
+#: ../data/preferenes_dialog.ui.h:19
+msgid "Proxy"
+msgstr "Прокси"
+
+#: ../data/preferenes_dialog.ui.h:20
+msgid "Quit application without confirmation"
+msgstr "Изход от приложението без потвърждение"
+
+#: ../data/preferenes_dialog.ui.h:21
+msgid "Select the download directory"
+msgstr "Изберете дестинация за записване"
+
+#: ../data/preferenes_dialog.ui.h:22
+msgid "Server:"
+msgstr "Сървър:"
+
+#: ../data/preferenes_dialog.ui.h:23
+msgid "Show notifications on track change"
+msgstr "Показвай информативен балон при смяна на песента"
+
+#: ../data/preferenes_dialog.ui.h:24
+msgid "Song cover cache limit:"
+msgstr "Кеш за обложките на песни:"
+
+#: ../data/preferenes_dialog.ui.h:25
+msgid "Use a custom proxy"
+msgstr "Дефиниране на прокси"
+
+#: ../data/preferenes_dialog.ui.h:26
+msgid "Use system configured proxy"
+msgstr "Използвай прокси от системните настройки"
+
+#: ../data/preferenes_dialog.ui.h:27
+msgid "Username:"
+msgstr "Потребител:"
+
+#: ../data/preferenes_dialog.ui.h:28
+msgid ""
+"You need to install pylast to use Last.fm.\n"
+"Please execute \"sudo pip install pylast\" to install it."
+msgstr ""
+"Трябва да иснталирате pylast, за да използвате Last.fm.\n"
+"Моля изпълнете \"sudo pip install pylast\" за да го инсталирате."
+
+#: ../data/preferenes_dialog.ui.h:30
+msgid "You need to restart gSharkDown for the proxy changes to takes effect."
+msgstr "Трябва да рестартирате gSharkDown за приемане на прокси-настройките."
+
+#: ../data/preferenes_dialog.ui.h:31
+msgid "gSharkDown Preferences"
+msgstr "gSharkDown настройки"
+
+#: ../data/preferenes_dialog.ui.h:32
+msgid "kB/s"
+msgstr "kB/s"
+
+#: ../data/about_dialog.ui.h:1
+msgid "About GrooveDown"
+msgstr "Относно gSharkDown"
+
+#: ../data/about_dialog.ui.h:2
+msgid ""
+"Bulgarian - Vladimir Kolev\n"
+"German - Vladimir Kolev\n"
+"Italian -  Andrea Sciucca\n"
+"Spanish - Damián Nohales"
+msgstr ""
+"Bulgarian - Vladimir Kolev\n"
+"German - Vladimir Kolev\n"
+"Italian -  Andrea Sciucca\n"
+"Spanish - Damián Nohales"
+
+#: ../data/about_dialog.ui.h:6
+msgid "Copyright © 2011-2012 Vladimir Kolev and Damián Nohales"
+msgstr "Copyright © 2011-2012 Vladimir Kolev and Damián Nohales"
+
+#: ../data/about_dialog.ui.h:7
+msgid "Downloading MP3's is illegal in some countries! Please check the law in your country."
+msgstr "Изтеглянето на mp3 файлове е нелегално в някои държави! Моля уверете се, че нарушавате закона във вашата държава."
+
+#: ../data/about_dialog.ui.h:8
+msgid "Gnome-toolkit based desktop application for downloading music files from Grooveshark.com"
+msgstr "Gnome-toolkit базирано, десктоп приложение за изтегляне на файлове от Grooveshark.com"
+
+#: ../data/about_dialog.ui.h:9
+msgid "Please buy me a beer :)"
+msgstr "Моля, купете ми бира :)"
+
+#: ../data/about_dialog.ui.h:10
+msgid ""
+"gSharkDown is licensed under the GNU GPL v3 License\n"
+"\n"
+"The gSharkDown icon is made by wall-e-ps (http://wall-e-ps.deviantart.com/)\n"
+"\n"
+"The groove.py library is developed by George Stephanos (jacktheripper51 @ github)\n"
+"Link to the sources: https://github.com/jacktheripper51/groove-dl"
+msgstr ""
+"gSharkDownе лицензиран под GNU GPL v3 License\n"
+"\n"
+"gSharkDown иконата е направена отwall-e-ps (http://wall-e-ps.deviantart.com/)\n"
+"\n"
+"Библиотеката groove.py е разработена от George Stephanos (jacktheripper51 @ github)\n"
+"Вързка към изходния код: https://github.com/jacktheripper51/groove-dl"
+
+#: ../data/about_dialog.ui.h:16
+msgid "gSharkDown website"
+msgstr "gSharkDown уебстраница"
+
+#: ../data/main_window.ui.h:1
+msgid "<b>Player</b>"
+msgstr "<b>Плейър</b>"
+
+#: ../data/main_window.ui.h:2
+msgid "Add to playlist"
+msgstr "Добави за просвирване"
+
+#: ../data/main_window.ui.h:3
+msgid "Cancels all downloads"
+msgstr "Откажи всички изтегляния"
+
+#: ../data/main_window.ui.h:4
+msgid "Check for Updates"
+msgstr "Провери за нова версия"
+
+#: ../data/main_window.ui.h:5
+msgid "Clear"
+msgstr "Изчисти"
+
+#: ../data/main_window.ui.h:6
+msgid "Clear completed downloads"
+msgstr "Изчисти изтеглените"
+
+#: ../data/main_window.ui.h:7
+msgid "Delete all"
+msgstr "Изтрий всички"
+
+#: ../data/main_window.ui.h:8
+msgid "Download selected"
+msgstr "Изтегли избраните"
+
+#: ../data/main_window.ui.h:9
+msgid "Edit Preferences"
+msgstr "Редактирай настройки"
+
+#: ../data/main_window.ui.h:10
+msgid "Filter: "
+msgstr "Филтър:"
+
+#: ../data/main_window.ui.h:11
+msgid "Load playlist from file"
+msgstr "Зареди списък за просвирване от файл"
+
+#: ../data/main_window.ui.h:12
+msgid "Love track on Last.fm"
+msgstr "Добавя песен в любими в Last.fm"
+
+#: ../data/main_window.ui.h:14
+msgid "Menu"
+msgstr "Меню"
+
+#: ../data/main_window.ui.h:15
+msgid "Pause all"
+msgstr "Пауза за всички"
+
+#: ../data/main_window.ui.h:16
+msgid "Playlist"
+msgstr "Списък за просвирване"
+
+#: ../data/main_window.ui.h:17
+msgid "Quit the application"
+msgstr "Излез от приложението"
+
+#: ../data/main_window.ui.h:18
+msgid "Resume"
+msgstr "Поднови"
+
+#: ../data/main_window.ui.h:19
+msgid "Resume all"
+msgstr "Поднови всички"
+
+#: ../data/main_window.ui.h:20
+msgid "Resumes all downloads"
+msgstr "Поднови всички изтегляния"
+
+#: ../data/main_window.ui.h:22
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: ../data/main_window.ui.h:23
+msgid "Search the grooveshark"
+msgstr "Търси в grooveshark"
+
+#: ../data/main_window.ui.h:24
+msgid "Show About dialog"
+msgstr "Покажи диалог относно приложението"
+
+#: ../data/main_window.ui.h:25
+msgid "Show info for the song"
+msgstr "Покажи информация за избрана песен"
+
+#: ../data/main_window.ui.h:26
+msgid "Stops all downloads"
+msgstr "Откажи всички изтегляния"
+
+#: ../data/main_window.ui.h:27
+msgid "Switch to downloads list"
+msgstr "Превключи към списък за изтегляне"
+
+#: ../data/main_window.ui.h:28
+msgid "Switch to playlist"
+msgstr "Преклключи към списъка за просвирване"
+
+#: ../data/main_window.ui.h:29
+msgid "There is no songs in the playlist."
+msgstr "Няма песни в списъка за просвирване"
+
+#: ../data/main_window.ui.h:30
+msgid "Toggle repeat all"
+msgstr "Повтаряй всички"
+
+#: ../data/main_window.ui.h:31
+msgid "Toggle shuffle all"
+msgstr "Превключи разбъркване на всички"
+
+#: ../data/main_window.ui.h:32
+msgid ""
+"Track seeking is planned\n"
+"for future version"
+msgstr ""
+"Превъртане на песента е планирано\n"
+"за следваща версия."
+
+#~ msgid "Kb/s"
+#~ msgstr "Kb/s"
+
+#~ msgid "<b>Download options</b>"
+#~ msgstr "<b>Опции при изтегляне</b>"
+
+#~ msgid "<b>Last.fm Scrobbling</b>"
+#~ msgstr "<b>Last.fm Scrobbling</b>"
+
+#~ msgid "<b>Playlist</b>"
+#~ msgstr "<b>Списък за изпълнение</b>"
+
+#~ msgid "Overwrite downloaded file?"
+#~ msgstr "Презаписване на изтегления файл?"
+
+#~ msgid "Cancel download"
+#~ msgstr "Откажи изтегляне"
+
+#~ msgid "Download and overwrite"
+#~ msgstr "Изтегли и презапиши"
+
+#~ msgid "Download renamed"
+#~ msgstr "Изтегли преименуван"
+
+#~ msgid ""
+#~ "The file '%s' already exists, maybe you are downloading a file that you "
+#~ "downloaded before.\n"
+#~ "\n"
+#~ "What do you want to do?"
+#~ msgstr ""
+#~ "Файлът '%s' вече съществува, може би изтегляте файл, който сте изтеглили "
+#~ "преди това.\n"
+#~ "\n"
+#~ "Какво искате да направите?"
+
+#~ msgid "<b>Year:</b> {year}"
+#~ msgstr "<b>Година:</b> {year}"
+
+#~ msgid "SongID"
+#~ msgstr "SongID"
+
+#, fuzzy
+#~ msgid "Stop all"
+#~ msgstr "Пускане/Спиране"
+
+#~ msgid "Flattr gSharkDow"
+#~ msgstr "Flattr gSharkDow"
+
+#~ msgid "<b>Playing:</b> {artist} - {title}"
+#~ msgstr "<b>Свири:</b> {artist} - {title}"
+
+#~ msgid "Hide gSharkDown"
+#~ msgstr "Скрий gSharkDown"
+
+#~ msgid "gSharkDown :: Player and Downloader"
+#~ msgstr "gSharkDown :: Player and Downloader"
+
+#~ msgid "(c) Vladimir Kolev 2011"
+#~ msgstr "(c) Vladimir Kolev 2011"
+
+#~ msgid "<b>Kb/s</b>"
+#~ msgstr "<b>Kb/s</b>"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Цял екран"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "{played} / {time}"
+#~ msgstr "{played} / {time}"
+
+#~ msgid "Add >"
+#~ msgstr "Добави >"
+
+#~ msgid "Love Song"
+#~ msgstr "Харесай песен"
+
+#~ msgid "Next"
+#~ msgstr "Следваща"
+
+#~ msgid "Open saved playlist"
+#~ msgstr "Отвори запазен списък за изпълнение"
+
+#~ msgid "Previous"
+#~ msgstr "Предишна"
+
+#~ msgid "Remove selected from playlist"
+#~ msgstr "Премахни избраните от списъка за изпълнение"
+
+#~ msgid "Save playlist"
+#~ msgstr "Запиши списъка за изпълнение"
+
+#~ msgid "Check your password and username for Last.fm"
+#~ msgstr "Проверете името и паролата си за Last.fm"
+
+#~ msgid "<b>Filename:</b> {artist} - {title}.mp3\n"
+#~ msgstr "<b>Име на файла:</b> {artist} - {title}.mp3\n"
+
+#~ msgid "Playing: {artist} - {title}"
+#~ msgstr "Свири: {artist} - {title}"
+
+#~ msgid "gSharkDown: GrooveShark Downloader"
+#~ msgstr "gSharkDown: GrooveShark Downloader"
+
+#~ msgid "About"
+#~ msgstr "Относно"
+
+#~ msgid "Add item from search results"
+#~ msgstr "Добави обект от резултатите"
+
+#~ msgid "Copy song name to clipboard"
+#~ msgstr "Копирай името на песента в буфера за обмен"
+
+#~ msgid "Copyto Clipboard"
+#~ msgstr "Копирай в буфера за обмен"
+
+#~ msgid "Get Lyrics"
+#~ msgstr "Изтегли текст за песента"
+
+#~ msgid "Info"
+#~ msgstr "Информация"
+
+#~ msgid "Open Prefrences"
+#~ msgstr "Отвори настройки"
+
+#~ msgid "Quit"
+#~ msgstr "Изход"
+
+#~ msgid "Search a lyrics for selected song from the playlist"
+#~ msgstr "Търсене на текст за избрана песен от списъка за изпълнение"
+
+#~ msgid "Show selection info"
+#~ msgstr "Покажи информация за избраните"
+
+#~ msgid "New update"
+#~ msgstr "Нова версия"
+
+#~ msgid ""
+#~ "'Update'\n"
+#~ "and download it. After that you can "
+#~ msgstr ""
+#~ "'Изпълни'\n"
+#~ "и я изтеглете. След това можете да"
+
+#~ msgid "remove the old one and install the new gSharkDown"
+#~ msgstr "премахнете старата версия и да инсталирате новия gSharkDown"
+
+#~ msgid "No updates"
+#~ msgstr "Няма нови версии"
+
+#~ msgid "Congratulations!\n"
+#~ msgstr "Поздравления!\n"
+
+#~ msgid "gSharkDown is already running!"
+#~ msgstr "gSharkDown е вече стартиран!"
+
+#~ msgid "gSharkDown Running"
+#~ msgstr "gSharkDown е стартиран"
+
+#~ msgid "Ready"
+#~ msgstr "Готов"
+
+#~ msgid "ERROR: Cant't find lyrics for {artist} - {track}"
+#~ msgstr "ГРЕШКА: Не може да бъде намерен текст за {artist} - {track}"

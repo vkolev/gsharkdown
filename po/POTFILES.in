@@ -1,0 +1,23 @@
+[encoding: UTF-8] 
+lib/SharkDown.py
+lib/lyrdblib.py
+lib/SearchResultList.py
+lib/guihelpers.py
+lib/SingleService.py
+lib/AbstractSongList.py
+lib/groove.py
+lib/PlayList.py
+lib/tfuncs.py
+lib/enviroment.py
+lib/__init__.py
+lib/Song.py
+lib/DownloadList.py
+lib/PlayListStyleWidget.py
+gsharkdown.py
+
+[type: gettext/ini]gsharkdown.desktop.in
+
+[type: gettext/glade]data/lyrics_dialog.ui
+[type: gettext/glade]data/preferenes_dialog.ui
+[type: gettext/glade]data/about_dialog.ui
+[type: gettext/glade]data/main_window.ui

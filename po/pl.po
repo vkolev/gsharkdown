@@ -1,0 +1,761 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+#   <darone@o2.pl>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gsharkdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-13 16:21-0300\n"
+"PO-Revision-Date: 2012-01-01 16:17+0100\n"
+"Last-Translator: Vladimir Kolev <vladimir.r.kolev@gmail.com>\n"
+"Language-Team: darone\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+
+#: ../lib/SharkDown.py:182
+#, fuzzy
+msgid "Please check your username and password for Last.fm"
+msgstr "Sprawdź swój login i hasło do Last.fm"
+
+#: ../lib/SharkDown.py:205
+#, python-format
+msgid ""
+"GrooveShark service has probably changed or is not working!\n"
+"gSharkDown will not works propperly, so please be patient until we find a "
+"solution.\n"
+"Also, this may usually caused by a proxy misconfiguration\n"
+"please check your proxy configuration.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+
+#: ../lib/SharkDown.py:284
+#, fuzzy
+msgid "Error while saving the playlist"
+msgstr "Błąd zapisu listy odtwarzania"
+
+#: ../lib/SharkDown.py:317
+#, fuzzy
+msgid "Error while saving the download queue"
+msgstr "Błąd podczas zapisu kolejki pobierania"
+
+#: ../lib/SharkDown.py:325 ../data/main_window.ui.h:21
+msgid "Save playlist to file"
+msgstr "Zapisz listę odtwarzania do pliku"
+
+#: ../lib/SharkDown.py:343
+msgid "Select Playlist to open"
+msgstr "Wybierz listę odtwarzania"
+
+#: ../lib/SharkDown.py:349
+msgid "Playlist files"
+msgstr "Pliki listy odtwarzania"
+
+#: ../lib/SharkDown.py:383
+#, fuzzy
+msgid "Are you sure you want to quit gSharkDown?"
+msgstr "Napewno wyłączyć?"
+
+#: ../lib/SharkDown.py:384
+msgid "Quit?"
+msgstr "Wyłączyć?"
+
+#: ../lib/SharkDown.py:573
+msgid ""
+"<b>Playing:</b> <i>{title}</i> <span fgcolor='#777777'>by {artist}</span>"
+msgstr ""
+
+#: ../lib/SharkDown.py:609
+msgid "Now playing"
+msgstr "Aktualnie odtwarzane"
+
+#: ../lib/SharkDown.py:706
+#, python-format
+msgid "%d track"
+msgid_plural "%d tracks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../lib/SharkDown.py:708
+msgid "Track {0} of {1}"
+msgstr ""
+
+#: ../lib/SharkDown.py:738
+#, fuzzy
+msgid ""
+"There should be a playing song to view\n"
+"the lyrics for it."
+msgstr "Aby wyświetlić tekst, piosenka musi być odtwarzana."
+
+#: ../lib/SharkDown.py:849
+#, fuzzy, python-format
+msgid "Downloading %d file"
+msgid_plural "Downloading %d files"
+msgstr[0] "Pobieranie %d pliku"
+msgstr[1] "Pobieranie %d plików"
+msgstr[2] "Pobieranie %d plików"
+
+#: ../lib/SharkDown.py:952
+msgid ""
+"There is no song to be loved.\n"
+" A song should be playing"
+msgstr ""
+"Nie ma piosenki do polubienia.\n"
+"Piosenka powinna być odtwarzana"
+
+#: ../lib/SearchResultList.py:48
+msgid "Title"
+msgstr "Tytu"
+
+#: ../lib/SearchResultList.py:54
+msgid "Artist"
+msgstr "Wykonawca"
+
+#: ../lib/SearchResultList.py:59
+msgid "Album"
+msgstr "Album"
+
+#: ../lib/guihelpers.py:33
+msgid "Error"
+msgstr "Błąd"
+
+#: ../lib/guihelpers.py:152
+msgid "Song Information - {songid}"
+msgstr "Informacje o piosence - {songid}"
+
+#: ../lib/guihelpers.py:153
+msgid "<b>Title:</b> {title}\n"
+msgstr "<b>Tytuł:</b> {title}\n"
+
+#: ../lib/guihelpers.py:154
+msgid "<b>Artist:</b> {artist}\n"
+msgstr "<b>Wykonawca:</b> {artist}\n"
+
+#: ../lib/guihelpers.py:156
+#, fuzzy
+msgid "<b>Duration:</b> {duration} min\n"
+msgstr "<b>Czas trwania:</b> {mins}:{secs} min\n"
+
+#: ../lib/guihelpers.py:157
+msgid "<b>Album:</b> {album}\n"
+msgstr "<b>Album:</b> {album}\n"
+
+#: ../lib/guihelpers.py:158
+msgid "<b>Year:</b> {year}\n"
+msgstr "<b>Rok:</b> {year}\n"
+
+#: ../lib/guihelpers.py:260
+msgid "There is no proxy configured in your system"
+msgstr ""
+
+#: ../lib/guihelpers.py:266
+#, python-format
+msgid "The system proxy is: %s"
+msgstr ""
+
+#: ../lib/guihelpers.py:322
+msgid "The Last.fm username must not be empty."
+msgstr ""
+
+#: ../lib/guihelpers.py:330
+msgid "The Last.fm password must not be empty."
+msgstr ""
+
+#: ../lib/guihelpers.py:347
+#, fuzzy
+msgid ""
+"Please check your username and password for Last.fm or disable scrobbling"
+msgstr "Sprawdź swój login i hasło do Last.fm"
+
+#: ../lib/guihelpers.py:399
+#, fuzzy
+msgid "Show gSharkDown"
+msgstr "gSharkDown"
+
+#: ../lib/guihelpers.py:416
+msgid "Check for update"
+msgstr "Sprawd aktualizację"
+
+#: ../lib/guihelpers.py:447 ../gsharkdown.desktop.in.h:2
+#: ../data/main_window.ui.h:34
+msgid "gSharkDown"
+msgstr "gSharkDown"
+
+#: ../lib/guihelpers.py:480
+#, fuzzy
+msgid "Stop"
+msgstr "Odtwórz/Stop"
+
+#: ../lib/guihelpers.py:490
+#, fuzzy
+msgid "Play"
+msgstr "Pliki listy odtwarzania"
+
+#: ../lib/groove.py:186
+msgid "Grooveshark is not initialized"
+msgstr ""
+
+#: ../lib/PlayList.py:157
+msgid ""
+"<b>Title:</b> {title}\n"
+"<b>Artist:</b> {artist}\n"
+"<b>Album:</b> {album}\n"
+"<b>Year:</b> {year}"
+msgstr ""
+
+#: ../lib/tfuncs.py:82
+#, python-format
+msgid ""
+"An error occurred while playing the song. Please try again later.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+
+#: ../lib/tfuncs.py:163
+msgid "No songs found"
+msgstr ""
+
+#: ../lib/tfuncs.py:170
+#, python-format
+msgid ""
+"An error occurred while search on Grooveshark.\n"
+"\n"
+"The error was: %s"
+msgstr ""
+
+#: ../lib/tfuncs.py:192
+msgid "To update to the latest version "
+msgstr "Aby zaktualizować do najnowszej wersji"
+
+#: ../lib/tfuncs.py:193
+msgid ""
+"you can visit the <a href=\"http://https://bitbucket.org/vkolev/gsharkdown/"
+"downloads\"> "
+msgstr ""
+"odwiedź <a href=\"http://https://bitbucket.org/vkolev/gsharkdown/downloads"
+"\"> "
+
+#: ../lib/tfuncs.py:194
+msgid "download site</a>. If you are using the latest version and want to be "
+msgstr "stronę pobierania</a>. Jeśli używasz najnowszej wersji i chcesz by"
+
+#: ../lib/tfuncs.py:195
+msgid ""
+"informed about new versions, just enable the option in the <b>Preferences</"
+"b> dialog."
+msgstr ""
+"informowany o nowszych wersjach, po prostu włącz opcję w  <b>Preferencjach</"
+"b>."
+
+#: ../lib/tfuncs.py:198
+#, python-format
+msgid "<b>New version <span fgcolor=\"red\"><i>%s</i></span> is available</b>"
+msgstr ""
+"<b>Nowa wersja <span fgcolor=\"red\"><i>%s</i></span> jest dostępna</b>"
+
+#: ../lib/tfuncs.py:200
+msgid "New version"
+msgstr "Nowa wersja"
+
+#: ../lib/tfuncs.py:205
+msgid "<b>You are using the latest version!</b>"
+msgstr "<b>Używasz najnowszej wersji!</b>"
+
+#: ../lib/tfuncs.py:207
+msgid "Latest version"
+msgstr "Najnowsza wersja"
+
+#: ../lib/tfuncs.py:224
+msgid "Loading lyrics..."
+msgstr "ładowanie Tekstu"
+
+#: ../lib/tfuncs.py:232 ../data/main_window.ui.h:13
+msgid "Lyrics"
+msgstr "Tekst"
+
+#: ../lib/Song.py:506
+#, python-format
+msgid "Failed to create '%s' for writing."
+msgstr "Nie udało się utworzyć '%s' do zapisu."
+
+#: ../lib/DownloadList.py:69
+msgid "File name"
+msgstr "Nazwa pliku"
+
+#: ../lib/DownloadList.py:73
+msgid "Speed"
+msgstr ""
+
+#: ../lib/DownloadList.py:77
+msgid "Size"
+msgstr "Rozmiar"
+
+#: ../lib/DownloadList.py:81
+msgid "Download progress"
+msgstr "Postęp pobierania"
+
+#: ../lib/PlayListStyleWidget.py:13
+msgid "Text below icons"
+msgstr ""
+
+#: ../lib/PlayListStyleWidget.py:14
+msgid "Text beside icons"
+msgstr ""
+
+#. (PlayList.ICONS_BIG, _("Icons only (big)"),),
+#. (PlayList.ICONS_SMALL, _("Icons only (small)"),),
+#: ../lib/PlayListStyleWidget.py:17
+msgid "Not show"
+msgstr ""
+
+#: ../lib/PlayListStyleWidget.py:42
+#, fuzzy
+msgid "Change the playlist style"
+msgstr "Wyczyść listę odtwarzania"
+
+#: ../lib/PlayListStyleWidget.py:45
+msgid ""
+"Please update your version of PyGtk\n"
+"to change the playlist style"
+msgstr ""
+
+#: ../gsharkdown.desktop.in.h:1
+msgid "Play and download songs from Grooveshark"
+msgstr ""
+
+#: ../data/lyrics_dialog.ui.h:1
+msgid "<b>Lyrics for:</b>"
+msgstr "<b>Tekst dla:</b>"
+
+#: ../data/lyrics_dialog.ui.h:2
+msgid "Lyrics viewer"
+msgstr "Wyświetlacz tekstów"
+
+#: ../data/lyrics_dialog.ui.h:3
+msgid "label"
+msgstr "etykieta"
+
+#: ../data/preferenes_dialog.ui.h:1
+#, fuzzy
+msgid ""
+"<span size=\"small\">\n"
+"<b>You can use the following placeholders:</b>\n"
+"\t<b>{artist}</b> - The name of the artist\n"
+"\t<b>{song}</b> - The name of the song\n"
+"\t<b>{album}</b> - The album name\n"
+"</span>"
+msgstr ""
+"<b>Możesz skorzystać z następujących symboli zastępczych: »<b>{artist}</b> - "
+"Nazwa wykonawcy\n"
+"»<b>{song}</b> - Nazwa utworu \n"
+"»<b>{album}</b> - Nazwa albumu"
+
+#: ../data/preferenes_dialog.ui.h:7
+msgid "Check for updates on startup"
+msgstr "Sprawdzaj aktualizacje przy starcie"
+
+#: ../data/preferenes_dialog.ui.h:8
+msgid "Do not use proxy"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:9
+msgid "Download Directory:"
+msgstr "Katalog pobierania:"
+
+#: ../data/preferenes_dialog.ui.h:10
+#, fuzzy
+msgid "Downloads"
+msgstr "Postęp pobierania"
+
+#: ../data/preferenes_dialog.ui.h:11
+msgid "Enable Last.fm Scrobbling"
+msgstr "Włącz Last.fm Scrobbling"
+
+#: ../data/preferenes_dialog.ui.h:12
+msgid "File renaming pattern:"
+msgstr "Wzór zmiany nazwy pliku:"
+
+#: ../data/preferenes_dialog.ui.h:13
+msgid "General"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:14
+msgid "Last.fm"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:15
+msgid "Maximum download speed: "
+msgstr "Maksymalna prędkość pobierania"
+
+#: ../data/preferenes_dialog.ui.h:16
+msgid "MegaBytes"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:17
+#, fuzzy
+msgid "Password:"
+msgstr "Hasło:"
+
+#: ../data/preferenes_dialog.ui.h:18
+msgid "Port:"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:19
+msgid "Proxy"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:20
+msgid "Quit application without confirmation"
+msgstr "Zamykaj aplikacje bez potwierdzenia"
+
+#: ../data/preferenes_dialog.ui.h:21
+msgid "Select the download directory"
+msgstr "Wybierz katalog pobierania"
+
+#: ../data/preferenes_dialog.ui.h:22
+msgid "Server:"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:23
+msgid "Show notifications on track change"
+msgstr "Pokaz powiadomienie po zmianie piosenki"
+
+#: ../data/preferenes_dialog.ui.h:24
+msgid "Song cover cache limit:"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:25
+msgid "Use a custom proxy"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:26
+msgid "Use system configured proxy"
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:27
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+#: ../data/preferenes_dialog.ui.h:28
+msgid ""
+"You need to install pylast to use Last.fm.\n"
+"Please execute \"sudo pip install pylast\" to install it."
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:30
+msgid "You need to restart gSharkDown for the proxy changes to takes effect."
+msgstr ""
+
+#: ../data/preferenes_dialog.ui.h:31
+#, fuzzy
+msgid "gSharkDown Preferences"
+msgstr "Preferencje"
+
+#: ../data/preferenes_dialog.ui.h:32
+msgid "kB/s"
+msgstr ""
+
+#: ../data/about_dialog.ui.h:1
+msgid "About GrooveDown"
+msgstr "O GrooveDown"
+
+#: ../data/about_dialog.ui.h:2
+#, fuzzy
+msgid ""
+"Bulgarian - Vladimir Kolev\n"
+"German - Vladimir Kolev\n"
+"Italian -  Andrea Sciucca\n"
+"Spanish - Damián Nohales"
+msgstr ""
+"Bułgarski - Vladimir Kolev\n"
+"Niemiecki - Vladimir Kolev\n"
+"Włoski -  Andrea Sciucca\n"
+"Hiszpański - Dami&#xE1;n Nohales"
+
+#: ../data/about_dialog.ui.h:6
+msgid "Copyright © 2011-2012 Vladimir Kolev and Damián Nohales"
+msgstr ""
+
+#: ../data/about_dialog.ui.h:7
+#, fuzzy
+msgid ""
+"Downloading MP3's is illegal in some countries! Please check the law in your "
+"country."
+msgstr ""
+"<b>Pobieranie mp3 jest nielegalne w niektórych krajach! Sprawdz prawo w "
+"swoim kraju.</b>"
+
+#: ../data/about_dialog.ui.h:8
+msgid ""
+"Gnome-toolkit based desktop application for downloading music files from "
+"Grooveshark.com"
+msgstr ""
+"Oparta na Gnome-toolkit aplikacja do pobierania plików muzycznych z "
+"Grooveshark.com"
+
+#: ../data/about_dialog.ui.h:9
+msgid "Please buy me a beer :)"
+msgstr ""
+
+#: ../data/about_dialog.ui.h:10
+msgid ""
+"gSharkDown is licensed under the GNU GPL v3 License\n"
+"\n"
+"The gSharkDown icon is made by wall-e-ps (http://wall-e-ps.deviantart.com/)\n"
+"\n"
+"The groove.py library is developed by George Stephanos (jacktheripper51 @ "
+"github)\n"
+"Link to the sources: https://github.com/jacktheripper51/groove-dl"
+msgstr ""
+"gSharkDown jest na licencji GNU GPL v3 License\n"
+"\n"
+"Ikona gSharkDown jest autorstwa wall-e-ps (http://wall-e-ps.deviantart."
+"com/)\n"
+"\n"
+"Biblioteka groove.py została opracowana przez George Stephanos "
+"(jacktheripper51 @ github)\n"
+"Link do plików źródłowych: https://github.com/jacktheripper51/groove-dl"
+
+#: ../data/about_dialog.ui.h:16
+#, fuzzy
+msgid "gSharkDown website"
+msgstr "gSharkDown"
+
+#: ../data/main_window.ui.h:1
+msgid "<b>Player</b>"
+msgstr "<b>Odtwarzacz</b>"
+
+#: ../data/main_window.ui.h:2
+#, fuzzy
+msgid "Add to playlist"
+msgstr "Dodaj wybrane do listy odtwarzania"
+
+#: ../data/main_window.ui.h:3
+#, fuzzy
+msgid "Cancels all downloads"
+msgstr "Anuluj pobieranie"
+
+#: ../data/main_window.ui.h:4
+msgid "Check for Updates"
+msgstr "Sprawdź aktualizacje"
+
+#: ../data/main_window.ui.h:5
+msgid "Clear"
+msgstr ""
+
+#: ../data/main_window.ui.h:6
+#, fuzzy
+msgid "Clear completed downloads"
+msgstr "Anuluj pobieranie"
+
+#: ../data/main_window.ui.h:7
+#, fuzzy
+msgid "Delete all"
+msgstr "Anuluj pobieranie"
+
+#: ../data/main_window.ui.h:8
+msgid "Download selected"
+msgstr "Pobierz wybrane"
+
+#: ../data/main_window.ui.h:9
+msgid "Edit Preferences"
+msgstr "Zmień preferencje"
+
+#: ../data/main_window.ui.h:10
+msgid "Filter: "
+msgstr ""
+
+#: ../data/main_window.ui.h:11
+#, fuzzy
+msgid "Load playlist from file"
+msgstr "Zapisz listę odtwarzania do pliku"
+
+#: ../data/main_window.ui.h:12
+#, fuzzy
+msgid "Love track on Last.fm"
+msgstr "Polub utwór na Last.fm"
+
+#: ../data/main_window.ui.h:14
+msgid "Menu"
+msgstr "Menu"
+
+#: ../data/main_window.ui.h:15
+#, fuzzy
+msgid "Pause all"
+msgstr "Wznów"
+
+#: ../data/main_window.ui.h:16
+#, fuzzy
+msgid "Playlist"
+msgstr "Pliki listy odtwarzania"
+
+#: ../data/main_window.ui.h:17
+msgid "Quit the application"
+msgstr "Zamknij aplikacje"
+
+#: ../data/main_window.ui.h:18
+msgid "Resume"
+msgstr "Wznów"
+
+#: ../data/main_window.ui.h:19
+#, fuzzy
+msgid "Resume all"
+msgstr "Wznów"
+
+#: ../data/main_window.ui.h:20
+#, fuzzy
+msgid "Resumes all downloads"
+msgstr "Wznów"
+
+#: ../data/main_window.ui.h:22
+#, fuzzy
+msgid "Search Results"
+msgstr "<b>Wyniki wyszukiwania</b>"
+
+#: ../data/main_window.ui.h:23
+msgid "Search the grooveshark"
+msgstr "Przeszukaj grooveshark"
+
+#: ../data/main_window.ui.h:24
+msgid "Show About dialog"
+msgstr "Pokaż O programie"
+
+#: ../data/main_window.ui.h:25
+#, fuzzy
+msgid "Show info for the song"
+msgstr "Pokaż informację o wybranym"
+
+#: ../data/main_window.ui.h:26
+#, fuzzy
+msgid "Stops all downloads"
+msgstr "Anuluj pobieranie"
+
+#: ../data/main_window.ui.h:27
+#, fuzzy
+msgid "Switch to downloads list"
+msgstr "Wybierz katalog pobierania"
+
+#: ../data/main_window.ui.h:28
+#, fuzzy
+msgid "Switch to playlist"
+msgstr "Dodaj wybrane do listy odtwarzania"
+
+#: ../data/main_window.ui.h:29
+#, fuzzy
+msgid "There is no songs in the playlist."
+msgstr "Błąd zapisu listy odtwarzania"
+
+#: ../data/main_window.ui.h:30
+msgid "Toggle repeat all"
+msgstr "Przełącz powtarzanie wszystkich"
+
+#: ../data/main_window.ui.h:31
+#, fuzzy
+msgid "Toggle shuffle all"
+msgstr "Przełącz odtwarzanie losowe"
+
+#: ../data/main_window.ui.h:32
+msgid ""
+"Track seeking is planned\n"
+"for future version"
+msgstr ""
+
+#~ msgid "<b>Download options</b>"
+#~ msgstr "<b>Opcje pobierania</b>"
+
+#~ msgid "<b>Last.fm Scrobbling</b>"
+#~ msgstr "<b>Last.fm Scrobbling</b>"
+
+#~ msgid "<b>Playlist</b>"
+#~ msgstr "<b>Lista odtwarzania</b>"
+
+#~ msgid "Overwrite downloaded file?"
+#~ msgstr "Nadpisać pobrany plik?"
+
+#~ msgid "Cancel download"
+#~ msgstr "Anuluj pobieranie"
+
+#~ msgid "Download and overwrite"
+#~ msgstr "Pobierz i nadpisz"
+
+#~ msgid "Download renamed"
+#~ msgstr "Pobierz ze zmianą nazwy"
+
+#~ msgid ""
+#~ "The file '%s' already exists, maybe you are downloading a file that you "
+#~ "downloaded before.\n"
+#~ "\n"
+#~ "What do you want to do?"
+#~ msgstr ""
+#~ "Plik '%s' aktualnie istnieje, być może ściągasz plik, który pobrałeś już "
+#~ "wcześniej.\n"
+#~ "\n"
+#~ "Co chcesz zrobić?"
+
+#~ msgid "<b>Year:</b> {year}"
+#~ msgstr "<b>Rok:</b> {year}"
+
+#~ msgid "SongID"
+#~ msgstr "Numer piosenki"
+
+#, fuzzy
+#~ msgid "Stop all"
+#~ msgstr "Odtwórz/Stop"
+
+#~ msgid "Flattr gSharkDow"
+#~ msgstr "Flattr gSharkDow"
+
+#~ msgid "<b>Playing:</b> {artist} - {title}"
+#~ msgstr "<b>Odtwarzanie:</b> {artist} - {title}"
+
+#~ msgid "Hide gSharkDown"
+#~ msgstr "Ukryj gSharkDown"
+
+#~ msgid "gSharkDown :: Player and Downloader"
+#~ msgstr "gSharkDown:: Odtwarzacz i menadżer pobierania"
+
+#~ msgid "(c) Vladimir Kolev 2011"
+#~ msgstr "(C) Vladimir Kolev 2011"
+
+#~ msgid "<b>Kb/s</b>"
+#~ msgstr "<b>Kb / s</b>"
+
+#~ msgid "Settings"
+#~ msgstr "Ustawienia"
+
+#~ msgid "Add >"
+#~ msgstr "Dodaj >"
+
+#~ msgid "Love Song"
+#~ msgstr "Polub utwór"
+
+#~ msgid "Next"
+#~ msgstr "Następny"
+
+#~ msgid "Open saved playlist"
+#~ msgstr "Otwórz zapisaną listę odtwarzania"
+
+#~ msgid "Previous"
+#~ msgstr "Poprzedni"
+
+#~ msgid "Remove selected from playlist"
+#~ msgstr "Usuń wybrane z listy odtwarzania"
+
+#~ msgid "Save playlist"
+#~ msgstr "Zapisz listę odtwarzania"
+
+#~ msgid "Check your password and username for Last.fm"
+#~ msgstr "Sprawdź swoje hasło i login do Last.fm"
+
+#~ msgid "<b>Filename:</b> {artist} - {title}.mp3\n"
+#~ msgstr "<b>Nazwa piku:</b> {artist} - {title}.mp3\n"
